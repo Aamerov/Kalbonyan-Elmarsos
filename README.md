@@ -90,7 +90,6 @@ Kalbonyan Elmarsos is an Egyptian non-profit organization whose goal is to help 
 
 ![0%](https://progress-bar.dev/0/?title=Done)
 
-- [ ] `in progress` `16h12m` - 16 - [AWS Certified Cloud Practitioner (CLF-C01)](<03-aCloudGuru/AWS%20Certified%20Cloud%20Practitioner%20(CLF-C01)/>)
 - [ ] `in progress` `4h27m` - 17 - [Serverless Functions with Netlify | YouTube ](<03-aCloudGuru/AWS%20Certified%20Solutions%20Architect%20Associate%20(SAA-C02)>)
 
 <img src="https://img.shields.io/badge/Total%20Number%20Of%20Hours%20For%20This%20Courses-20h39m-blue">
