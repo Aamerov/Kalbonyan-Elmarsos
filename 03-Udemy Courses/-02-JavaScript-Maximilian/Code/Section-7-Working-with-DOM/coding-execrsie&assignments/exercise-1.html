@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Time to practice</title>
+  </head>
+  <body>
+    <h1>Goals</h1>
+    <ul></ul>
+    <script>
+      function solve() {
+        const list = document.querySelector('ul');
+        const firstGoal = document.createElement('li');
+        const secondGoal = document.createElement('li');
+        firstGoal.textContent = 'Learn JavaScript';
+        secondGoal.textContent = 'Master JavaScript';
+        list.appendChild(firstGoal);
+        list.appendChild(secondGoal);
+      }
+
+      solve();
+    </script>
+  </body>
+</html>
