@@ -1,13 +1,8 @@
 import classes from './CartItem.module.css';
-import { useDispatch, useSelector } from 'react-redux';
-import { useSelect } from '@mui/base';
-import { cartActions } from '../store/cart';
+
 const CartItem = (props) => {
   const { title, quantity, total, price } = props.item;
-  const dispatch = useDispatch();
-  const incrementHandler = (item) => {
-    dispatch(cartActions.addToCart(item));
-  };
+
   return (
     <li className={classes.item}>
       <header>
@@ -23,7 +18,7 @@ const CartItem = (props) => {
         </div>
         <div className={classes.actions}>
           <button>-</button>
-          <button onClick={() => incrementHandler({ title, price })}>+</button>
+          <button>+</button>
         </div>
       </div>
     </li>
